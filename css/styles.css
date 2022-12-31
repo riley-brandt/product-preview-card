@@ -2,8 +2,13 @@ body {
   background-color: #f3eae3;
 }
 
+button {
+  padding: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 #container-body {
-  /* max-width: 1440px; */
 }
 
 #container-card {
