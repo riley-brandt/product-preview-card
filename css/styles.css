@@ -8,9 +8,6 @@ button {
   padding-right: 2rem;
 }
 
-#container-body {
-}
-
 #container-card {
   display: flex;
   align-items: center;
