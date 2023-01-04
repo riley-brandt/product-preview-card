@@ -1,11 +1,16 @@
 body {
   background-color: #f3eae3;
+  font-family: "Fraunces", serif;
 }
 
 button {
   padding: 0.4rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 #container-card {
