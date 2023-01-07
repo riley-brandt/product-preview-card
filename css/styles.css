@@ -9,7 +9,6 @@
 body {
   background-color: #f3eae3;
   font-family: "Fraunces", serif;
-  min-height: 100vh;
 }
 
 button {
@@ -22,13 +21,14 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
-.container-body {
-}
+/* .container-body {
+} */
 
 .container-card {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .card-contents {
@@ -47,6 +47,12 @@ h3 {
   border-radius: 0 1rem 1rem 0;
   width: 300px;
   padding: 1rem;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .attribution {
