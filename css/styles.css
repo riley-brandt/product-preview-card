@@ -2,27 +2,33 @@
   --dark-cyan: hsl(158, 36%, 37%);
   --cream: hsl(30, 38%, 92%);
   --very-drak-blue: hsl(212, 21%, 14%);
-  --drak-greyish-blue: hsl(228, 12%, 48%);
+  --dark-greyish-blue: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
 }
 
 body {
-  background-color: #f3eae3;
-  font-family: "Fraunces", serif;
+  background-color: var(--cream);
 }
 
-button {
-  padding: 0.4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-greyish-blue);
+  font-size: 0.85rem;
+}
+
+.perfume {
+  letter-spacing: 6px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 1.9rem;
+  line-height: 1em;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
 }
-
-/* .container-body {
-} */
 
 .container-card {
   display: flex;
@@ -34,25 +40,43 @@ h3 {
 .card-contents {
   display: flex;
   flex-direction: row;
+  max-width: 540px;
+  height: 410px;
 }
 
 .product-image {
-  width: 300px;
-  border-radius: 1rem 0 0 1rem;
-  /* height: 300px; */
+  width: 270px;
+  height: auto;
+  border-radius: 6px 0 0 6px;
 }
 
 .card-text {
   background-color: white;
-  border-radius: 0 1rem 1rem 0;
-  width: 300px;
-  padding: 1rem;
+  border-radius: 0 6px 6px 0;
+  width: 270px;
+  padding: 1.6rem;
 }
 
 .prices {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+
+  border: none;
+  border-radius: 6px;
+  background-color: var(--dark-cyan);
+  font-weight: 600;
+  color: var(--white);
+  cursor: pointer;
 }
 
 .attribution {
