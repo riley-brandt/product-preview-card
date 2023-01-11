@@ -6,6 +6,12 @@
   --white: hsl(0, 0%, 100%);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--cream);
 }
@@ -13,11 +19,7 @@ body {
 p {
   font-family: "Montserrat", sans-serif;
   color: var(--dark-greyish-blue);
-  font-size: 0.85rem;
-}
-
-.perfume {
-  letter-spacing: 6px;
+  font-size: 14px;
 }
 
 h1 {
@@ -40,27 +42,42 @@ h3 {
 .card-contents {
   display: flex;
   flex-direction: row;
-  max-width: 540px;
-  height: 410px;
+  width: 37.5rem;
+  height: 28.125rem;
 }
 
 .product-image {
-  width: 270px;
-  height: auto;
+  width: 300px;
   border-radius: 6px 0 0 6px;
 }
 
 .card-text {
+  width: 300px;
   background-color: white;
   border-radius: 0 6px 6px 0;
-  width: 270px;
-  padding: 1.6rem;
+  padding: 2rem 2.2rem;
+}
+
+.perfume {
+  font-size: 0.7rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 6px;
+}
+
+.title {
+  margin-bottom: 1.75rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .prices {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 button {
@@ -77,6 +94,17 @@ button {
   font-weight: 600;
   color: var(--white);
   cursor: pointer;
+}
+
+.sale-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color: var(--dark-cyan);
+  font-weight: 700;
+}
+
+.reg-price {
+  text-decoration: line-through;
 }
 
 .attribution {
