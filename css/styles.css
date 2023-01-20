@@ -1,5 +1,6 @@
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
+  --darker-cyan: hsl(156, 59%, 25%);
   --cream: hsl(30, 38%, 92%);
   --very-drak-blue: hsl(212, 21%, 14%);
   --dark-greyish-blue: hsl(228, 12%, 48%);
@@ -33,7 +34,7 @@ h3 {
 }
 
 img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 .container-card {
@@ -51,10 +52,19 @@ max-width: 100%;
   height: 28.125rem;
 }
 
-.product-image {
-  width: 300px;
+.card-image {
+  width: 18.75rem;
+  height: 28.125rem;
+  background-image: url(/img/image-product-desktop.jpg);
+  background-position: center;
+  background-size: contain;
   border-radius: 6px 0 0 6px;
 }
+
+/* .product-image {
+  width: 300px;
+  border-radius: 6px 0 0 6px;
+} */
 
 .card-text {
   width: 300px;
@@ -66,7 +76,7 @@ max-width: 100%;
 .perfume {
   font-size: 0.7rem;
   margin-bottom: 1.2rem;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
 }
 
 .title {
@@ -76,7 +86,7 @@ max-width: 100%;
 
 .description {
   margin-bottom: 2rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .prices {
@@ -103,6 +113,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--darker-cyan);
+}
+
 .sale-price {
   font-family: "Fraunces", serif;
   font-size: 2rem;
@@ -119,6 +133,46 @@ button {
   text-align: center;
   margin-top: 2rem;
 }
-.attribution a {
-  color: --var(--dark-cyan);
+
+@media screen and (max-width: 600px) {
+  .card-contents {
+    flex-direction: column;
+    width: 21.5rem;
+    height: 38.125rem;
+    border: 1px solid red;
+  }
+
+  .card-image {
+    width: 21.5rem;
+    height: 240px;
+    background-image: url(/img/image-product-mobile.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-text {
+    width: 21.5rem;
+    height: 370px;
+    border-radius: 0 0 6px 6px;
+  }
+
+  .perfume {
+    margin-bottom: 0.8rem;
+  }
+
+  .title {
+    margin-bottom: 0.8rem;
+  }
+
+  .description {
+    margin-bottom: 1rem;
+  }
+
+  .prices {
+    margin-bottom: 1rem;
+  }
 }
+/* .attribution a {
+  color: --var(--dark-cyan);
+} */
