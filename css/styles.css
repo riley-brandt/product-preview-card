@@ -55,16 +55,11 @@ img {
 .card-image {
   width: 18.75rem;
   height: 28.125rem;
-  background-image: url(/img/image-product-desktop.jpg);
+  background-image: url(../img/image-product-desktop.jpg);
   background-position: center;
   background-size: contain;
   border-radius: 6px 0 0 6px;
 }
-
-/* .product-image {
-  width: 300px;
-  border-radius: 6px 0 0 6px;
-} */
 
 .card-text {
   width: 300px;
@@ -139,13 +134,13 @@ button:hover {
     flex-direction: column;
     width: 21.5rem;
     height: 38.125rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .card-image {
     width: 21.5rem;
     height: 240px;
-    background-image: url(/img/image-product-mobile.jpg);
+    background-image: url(../img/image-product-mobile.jpg);
     background-position: top;
     background-size: cover;
     border-radius: 6px 6px 0 0;
