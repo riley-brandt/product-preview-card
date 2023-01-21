@@ -6,16 +6,15 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ![A responsive product preview card](img/site-preview-1000px.png)
 
+### Links
+
+- [View the live website](https://riley-brandt.github.io/product-preview-card/)
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### What I learned
 
