@@ -18,10 +18,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### What I learned
 
-* used `border-box` to fix sizing/layout issues 
-* made images responsive using the `background-image` property
-* used hsl instead of hex for colors
-* used CSS Variables to speed up design
+* made **responsive website** with Media Queries and Flexbox
+* used **HSL instead of hex** for colors
+* used **CSS Variables** to speed up design
 
 ```css
 :root {
