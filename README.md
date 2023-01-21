@@ -6,35 +6,31 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ![A responsive product preview card](img/site-preview-1000px.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+* used `border-box` to fix sizing/layout issues 
+* made images responsive using the `background-image` property
+* used hsl instead of hex for colors
+* used CSS Variables to speed up design
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+  --cream: hsl(30, 38%, 92%);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+body {
+  background-color: var(--cream);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
