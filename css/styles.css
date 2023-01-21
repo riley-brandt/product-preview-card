@@ -17,6 +17,22 @@ body {
   background-color: var(--cream);
 }
 
+a {
+  color: var(--darker-cyan);
+}
+
+a:visited {
+  color: var(--dark-greyish-blue);
+}
+
+a:hover {
+  color: var(--dark-cyan);
+}
+
+a:active {
+  color: var(--white);
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   color: var(--dark-greyish-blue);
