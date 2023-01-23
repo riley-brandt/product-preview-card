@@ -12,13 +12,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Flexbox
 
 ### What I learned
 
-* made **responsive website** with Media Queries and Flexbox
+* made a **responsive website** with Media Queries and Flexbox
 * used **HSL instead of hex** for colors
 * used **CSS Variables** to speed up design
 

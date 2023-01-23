@@ -150,7 +150,6 @@ button:hover {
     flex-direction: column;
     width: 21.5rem;
     height: 38.125rem;
-    /* border: 1px solid red; */
   }
 
   .card-image {
@@ -184,6 +183,3 @@ button:hover {
     margin-bottom: 1rem;
   }
 }
-/* .attribution a {
-  color: --var(--dark-cyan);
-} */
