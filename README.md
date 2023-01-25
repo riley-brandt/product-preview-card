@@ -9,6 +9,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - [View the live website](https://riley-brandt.github.io/product-preview-card/)
+- [Front-end Mentor Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-jrDS2vVsB0)
 
 ### Built with
 
